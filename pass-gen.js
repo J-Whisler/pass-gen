@@ -1,8 +1,4 @@
-var finalPass1 = []
-
-var finalPass2 = ""
-
-var finalPass3 = ""
+var finalPas= ""
 
 var passLength = 28;
 
@@ -12,5 +8,6 @@ var specChar = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '?', '>', '<',
 var numChar = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
 for (i = 0; i < passLength; i++) {
-    finalPass1[i] = (lowerCharset[Math.floor(Math.random() * 26)])
+    finalPass[i] = (lowerCharset[Math.floor(Math.random() * 26)])
+    return
 }

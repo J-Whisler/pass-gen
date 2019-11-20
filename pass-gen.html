@@ -28,12 +28,30 @@
             <div class="content">
                 <h4>Random Password Generator</h4>
                 <br>
-                <input type="text" id="display" class="text">
+                How many characters would you like the randomly generated password to consist of?
                 <br>
-                <input type="range" min="8" max="128" name="slider" id="slider" class="slide">
+                <input type="number" min="8" max="128" name="charNum" id="charNum" class="charNum">
+                <br>
+                What characters would you like the randomly generated password to consist of?
+                <br>
+                <br>
+                Uppercase Letter: <input type="checkbox" id="uppercase">
+                <br>
+                Lowercase Letter: <input type="checkbox" id="lowercase">
+                <br>
+                Number: <input type="checkbox" id="number">
+                <br>
+                Symbol: <input type="checkbox" id="symbol">
                 <br>
                 <button onclick="" class="generate">Generate</button>
-                <button onclick="">Copy to Clipboard</button>
+                <button onclick="" class="copy">Copy to Clipboard</button>
+                <br>
+                <input type="text" id="display" class="text">
+                <br>
+               
+                
+               
+              
                 
             </div>
         </div>

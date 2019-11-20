@@ -9,4 +9,18 @@ var numChar = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
 var charNum = document.getElementById('charNum')
 
-var 
+var uppercase = document.getElementById('uppercase')
+
+var lowercase = document.getElementById('lowercase')
+
+var number = document.getElementById('number')
+
+var symbol = document.getElementById('symbol')
+
+var generate = document.getElementById('generatePwd')
+
+var copy = document.getElementById('copyToClipboard')
+
+var password = document.getElementById('display')
+
+

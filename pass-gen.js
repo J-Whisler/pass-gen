@@ -30,12 +30,40 @@ var finalPass = ''
 stringPass = (arrPass.toString())
 finalPass = (stringPass.replace(/,/g,""))
 
-function generate (){
- // var passLength = document.getElementById('charNum').value;
- passLength = 8       
- 
- for (var i = 0; i < passLength; i++) {
-  finalPass[i] = (lowerCharset[Math.floor(Math.random() * lowerCharset.length)])
+var low = true
+var up = true
+var specs = true
+var nums = true
+
+function userInput () {
+    passLength = document.getElementById("charNum").value
+
+
+    if (document.getElementById("uppercase").checked) {
+        up = true
+    } else {
+        up = false
+    }
+
+
+    if (document.getElementById("lowercase").checked) {
+        low = true
+    } else {
+        low = false
+    }
+
+    if (document.getElementById("number").checked) {
+        nums = true
+    } else {
+        nums = false
+    }
+
+
+    if (document.getElementById("symbol").checked) {
+        specs = true
+    } else {
+        specs = false
+    }
 }
 
 

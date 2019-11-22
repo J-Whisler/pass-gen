@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="pass-gen.js" type=text/javascript></script>
+    
 
 
 </head>
@@ -30,7 +30,7 @@
                 <br>
                 How many characters would you like the randomly generated password to consist of?
                 <br>
-                <input type="number" min="8" max="128" name="charNum" id="charNum" class="charNum">
+                <input type="number" min="8" max="128" name="charNum" id="charNum" class="charNumber">
                 <br>
                 What characters would you like the randomly generated password to consist of?
                 <br>
@@ -43,7 +43,7 @@
                 <br>
                 Symbol: <input type="checkbox" id="symbol">
                 <br>
-                <button onclick="" class="generate" id="generatePwd">Generate</button>
+                <button onclick="run()" class="generate" id="generatePwd">Generate</button>
                 <button onclick="" class="copy" id="copyToClipboard">Copy to Clipboard</button>
                 <br>
                 Password: <input type="text" id="display" class="text">
@@ -59,6 +59,6 @@
 
     </div>
     </div>
-
+    <script src="pass-gen.js" type=text/javascript></script>
 </body>
 </html>

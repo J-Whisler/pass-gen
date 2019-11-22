@@ -27,8 +27,8 @@ var arrPass = []
 var stringPass = ''
 var finalPass = ''
 
-finalPass2 = (finalPass.toString())
-finalPass3 = (finalPass2.replace(/,/g,""))
+stringPass = (arrPass.toString())
+finalPass = (stringPass.replace(/,/g,""))
 
 function generate (){
  // var passLength = document.getElementById('charNum').value;

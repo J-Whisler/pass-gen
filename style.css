@@ -1,5 +1,6 @@
 .container {
     background-image: url("./beige-tiles.png");
+    width: 100%;
 }
 
 .navbar-brand {

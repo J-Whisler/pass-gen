@@ -108,11 +108,12 @@ function createPassword () {
 
 
     // a function saved to a variable that will use the Math.floor(Math.random) to make sure that the password is randomized each time.  That will then be pushed into the arrPass to later be converted into the final password.
-    
+    for (var i = 0; i < passLength; i++) {
     var randomize = function() {
         return Math.floor(Math.random() * possibleValues.length)
     }
         arrPass.push(possibleValues[randomize()])
+ }
         
 }
 
@@ -140,6 +141,17 @@ function generate () {
     convert();
     final();
 }
+
+
+// var copyToClipboard = document.querySelector("#copyToClipboard")
+
+// function copyToCb () {
+
+    // copyToClipboard.select()
+
+    // document.execCommand("copy")
+
+
 
 
 
